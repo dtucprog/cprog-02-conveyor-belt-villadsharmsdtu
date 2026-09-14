@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int MOTOR_CAPACITY = 12;
+
+int main() {
+    int motorCount, totalPackageWeight, MOTOR_CAPACITY, totalMotorCapacity;
+    MOTOR_CAPACITY = 12;
+    motorCount = 3;
+    totalPackageWeight = 15;
+    // Random variables to test code
+
+    totalMotorCapacity = MOTOR_CAPACITY * motorCount;
+    if (totalPackageWeight >= totalMotorCapacity){
+    printf("No. The conveyor belt cannot carry the packages.");
+    }
+    else {
+        printf("Yes! The conveyor belt can carry the packages.");
+    }
+}
